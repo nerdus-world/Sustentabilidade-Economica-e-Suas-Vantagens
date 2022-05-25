@@ -1,0 +1,257 @@
+/* Gerais */
+body {
+    background-image: url
+     font-family: 'Roboto', sans-serif;
+}
+
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color:darkslategray
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 70px;
+    color: white;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+    text-transform: none;
+
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;   
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+.carousel-indicators .active {
+    background-color: green;
+}
+
+
+/*Conteudo*/
+.main-title {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 65px 0;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin: 0 0 65px 0;
+    text-decoration: underline;
+
+}
+
+p {
+    text-align:justify;
+    font-size: 14px;
+    margin: 0px 40px 0px 40px;
+}
+
+li {
+    text-align: justify;
+    font-size: 15px;
+    margin: 0px 45px 0px 45px;
+}
+
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: justify;
+    padding: 0px 00px;
+    background-color: black;
+}
+
+#company-img {
+    background-image: url('../img/Sustentabilidade.png');
+    background-size: cover;
+    height: 100%;
+}
+
+#brundtland-img2 {
+    background-image: url('../img/brundtland.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+
+#pattern-img h4, #pattern-img p {
+    color: white;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+h3, .bru {
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: darkslategray;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid darkslategray;
+}
+
+footer h2, footer p, footer a, footer span{
+    color: #d1d1d1;
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer{
+    width: 80%;
+}
+
+.company-footer h2{
+    margin-top: 20px;
+}
+
+.company-footer h2, .coompany-footer p{
+    margin-bottom: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 15px;
+} 
+
+.footer-list a{
+    transition: .5s;
+} 
+
+.footer-list a:hover {
+    color: #FFF;
+}
+
+.footer-list li::after {
+    clear:both
+    content:"";
+    display: block;
+}
+
+.articles-footer {
+    width: 80%;
+}
+
+.footer-list.footer-article-list span{
+    display: block;
+    float: none;
+}
+
+.fab{
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+
+.footer-bottom  {
+    border-top: 1px solid #B2B2B2;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+
+
